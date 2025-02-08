@@ -1,0 +1,155 @@
+
+@media (min-width: 1024px) and (max-width: 1440px)  {
+
+body {
+    background-color: black;
+}
+
+.card {
+    background-color: white;
+    height: 80vh;
+    width: 800px;
+    position: relative;
+    margin-left: 100px;    
+}
+
+
+
+.card-body1 {
+  height: 45%;
+  padding-left: 150px;
+  padding-right: 400px;
+  padding-top: 10px;
+  line-height: 1.2rem;
+  text-wrap: wrap;
+  font-size: 12px;
+}
+
+
+span {
+color: green;
+font-family: Lato;
+font-size: 12px;
+font-weight: 800;
+line-height: 30px;
+text-align: left;
+}
+
+.card-body2 {
+  height: 55%;
+    background-color: grey;
+    border-top: 10px solid grey;
+    color: white;            
+}
+
+.card-title {
+  height: 30px;
+  width: 200px;
+  background-color: orange;
+  color: black;
+  font-weight: bolder;
+  font-size: 13px;
+  text-align: center;
+  position: absolute;
+  padding-top: 10px;
+  margin-left: 145px;
+  margin-top: 5px;
+  z-index: 1;
+}
+
+.card-text {
+  background-color: whitesmoke;
+  position: relative;
+  height: 140px;
+  width: 500px;
+  margin-left: 150px;
+  padding-top: 60px;
+  padding-left: 10px;
+  padding-right: 35px;
+  font-size: 13px;
+  text-wrap: wrap;
+  line-height: 1.5;
+  color: black;
+}
+
+}
+
+
+
+
+  
+@media (min-width: 600px) and (max-width: 1024px) {
+
+
+  body {
+    background-color: black;
+}
+
+.card {
+    background-color: white;
+    height: 80vh;
+    width: 800px;
+    position: relative;
+    margin-left: 100px;
+    
+}
+
+
+
+.card-body1 {
+  height: 45%;
+  padding-left: 150px;
+  padding-right: 350px;
+  padding-top: 10px;
+  line-height: 1.5rem;
+  text-wrap: wrap;
+}
+
+
+span {
+color: green;
+font-family: Lato;
+font-size: 15px;
+font-weight: 800;
+line-height: 30px;
+text-align: left;
+
+}
+
+.card-body2 {
+  height: 55%;
+    background-color: grey;
+    border-top: 10px solid grey;
+    color: white;            
+}
+
+.card-title {
+  height: 30px;
+  width: 200px;
+  background-color: orange;
+  color: black;
+  font-weight: bolder;
+  font-size: 0.9rem;
+  text-align: center;
+  position: absolute;
+  padding-top: 10px;
+  margin-left: 145px;
+  margin-top: 10px;
+  z-index: 1;
+}
+
+.card-text {
+  background-color: whitesmoke;
+  position: relative;
+  height: 170px;
+  width: 500px;
+  margin-left: 150px;
+  padding-top: 60px;
+  padding-left: 10px;
+  font-size: 0.9rem;
+  text-wrap: wrap;
+  line-height: 1.5;
+  color: black;
+}
+
+}

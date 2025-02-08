@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.dashboard-div{
+    background-color: #F5F8FA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    width: 95%;
+    justify-self: center;
+    border-bottom: 1px solid slategray;
+}
+.nav-links-div{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.nav-link{
+    font-size: 14px;
+    font-weight: 700;
+}
+.nav-link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.account-link{
+    border: 1px solid slategray;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card-div{
+    width: 60%;
+    /* justify-self: center; */
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 50px 0;
+    border-radius: 6px 0 0 6px;
+}
+.left-card-form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 6px 0 0 6px;
+}
+.left-title-div{
+    padding: 20px 0 20px 35px;
+    border-bottom: 1px solid slategray;
+}
+.left-title{
+    font-size: 30px;
+    font-weight: 400;
+}
+.number-div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.form-number, .question{
+    border: 1px solid skyblue;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    /* padding: 5px; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.basic-form-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.basic-info-div, .payment-info-div, .left-footer-div{
+    padding: 20px 35px;
+    border-bottom: 1px solid slategray;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.name-div{
+    display: flex;
+    gap: 15px;
+}
+.first-name-div, .last-name-div, .email-div, .payment-form-div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: space-around;
+}
+
+.email-div input, .last-name-div input, .first-name-div input {
+    border-radius: 5px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+}
+.email-div{
+    width: 70%;
+}
+
+input, .slash{
+    background-color: #EDEFF2;
+    border: 0;
+    margin: 0;
+}
+.basic-form-div input{
+    padding: 5px 2px;
+}
+.credit-card-div{
+    display: flex;
+    width: 100%;
+}
+.card-number-input{
+    width: 69%;
+    padding-left: 5px;
+}
+.mm-input{
+    width: 7%;
+}
+.yy-input{
+    width: 7%;
+}
+.slash{
+    width: 2%;
+}
+.cvc-input{
+    width: 15%;
+}
+.payment-form-div input, .slash{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.left-footer-div{
+    align-items: center;
+}
+.contact-div{
+    display: flex;
+    gap: 5px;
+}
+.question{
+    height: max-content;
+    border: 1px solid skyblue;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    /* padding: 5px; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.button-div{
+    width: 100%;
+}
+.buy-button{
+    background-color: #038E7D;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+.right-card-div{
+    background-color: #1179BF;
+    padding: 25px 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 0 6px 6px 0;
+}
+.figure{
+    font-size: 60px;
+    align-self: self-start;
+    line-height: 100%;
+}
+.currency{
+    align-self: self-start;
+}
+.time{
+    align-self: self-end;
+}
+.rate-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.amount-div{
+    display: flex;
+}
+.features-div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.feature{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.plan-div{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    border-bottom: 1px solid skyblue;
+    padding-bottom: 20px;
+}
+.quote-div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.quoter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

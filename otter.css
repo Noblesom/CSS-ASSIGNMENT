@@ -1,0 +1,48 @@
+
+
+.otter {
+    background-color: #ff00a5;
+    text-align: center;
+    height: 50px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 75px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 3px;
+}
+
+
+
+.Xters {
+    background-color: white;
+    width: 300px;
+    height: 160px;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 50px;
+    padding-top: 4%;
+    border-radius: 5px;
+}
+
+.Xters p {
+    padding-left: 9%;
+    padding-right: 6%; 
+    line-height: 1.5;
+    font-size: 0.9rem;
+}
+
+.otter p {
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Georgia', serif;
+}
+
+
+div {
+    background-color: black;
+    height: 300px;
+    width: 600px
+}
